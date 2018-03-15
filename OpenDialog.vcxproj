@@ -30,7 +30,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -179,6 +179,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="FirtstDlg.h" />
     <ClInclude Include="OpenDialog.h" />
     <ClInclude Include="OpenDialogDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -186,6 +187,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FirtstDlg.cpp" />
     <ClCompile Include="OpenDialog.cpp" />
     <ClCompile Include="OpenDialogDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
